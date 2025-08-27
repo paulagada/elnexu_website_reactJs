@@ -1,5 +1,4 @@
 import { SelectedPage } from '@/shared/types';
-import useMediaQuery from '@/hooks/useMediaQuery';
 import Logo from '@/assets/elnexuLogo.png';
 import youtube from '@/assets/youtube.png';
 import linkedIn from '@/assets/linkedIn.png';
@@ -12,8 +11,7 @@ type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-const Footer = ({ setSelectedPage }: Props) => {
-  const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)');
+const Footer = ({}: Props) => {
   return (
     <section
       id='footer'
