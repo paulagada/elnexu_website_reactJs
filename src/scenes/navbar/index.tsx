@@ -1,6 +1,6 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
-import Logo from '@/assets/elnexuLogo.png';
+import Logo from '@/assets/elnexuLogo.webp';
 import Link from './Link';
 import { SelectedPage } from '@/shared/types';
 import useMediaQuery from '@/hooks/useMediaQuery';

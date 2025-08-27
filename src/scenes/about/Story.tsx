@@ -1,5 +1,5 @@
 import { SelectedPage } from '@/shared/types';
-import Story from '@/assets/story.jpg';
+import Story from '@/assets/story.webp';
 import { motion } from 'framer-motion';
 
 type Props = {

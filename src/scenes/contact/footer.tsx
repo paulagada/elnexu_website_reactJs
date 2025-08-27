@@ -1,10 +1,10 @@
 import { SelectedPage } from '@/shared/types';
-import Logo from '@/assets/elnexuLogo.png';
-import youtube from '@/assets/youtube.png';
-import linkedIn from '@/assets/linkedIn.png';
-import facebook from '@/assets/facebook.png';
-import xIcon from '@/assets/xIcon.png';
-import instagram from '@/assets/instagram.png';
+import Logo from '@/assets/elnexuLogo.webp';
+import youtube from '@/assets/youtube.webp';
+import linkedIn from '@/assets/linkedIn.webp';
+import facebook from '@/assets/facebook.webp';
+import xIcon from '@/assets/xIcon.webp';
+import instagram from '@/assets/instagram.webp';
 import { motion } from 'framer-motion';
 
 type Props = {

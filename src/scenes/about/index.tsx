@@ -1,5 +1,5 @@
 import { SelectedPage } from '@/shared/types';
-import AboutImg from '@/assets/aboutImg.jpg';
+import AboutImg from '@/assets/aboutImg.webp';
 import { motion } from 'framer-motion';
 import CustomerStory from './Story';
 
