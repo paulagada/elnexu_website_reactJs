@@ -5,6 +5,7 @@ import Img1 from '@/assets/pos1.webp';
 import Img2 from '@/assets/pos2.webp';
 import Img3 from '@/assets/pos3.webp';
 import { useState, useEffect } from 'react';
+import ContactFormModal from '@/shared/ContactFormModal';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -70,9 +71,7 @@ const TerminalService = ({ setSelectedPage }: Props) => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}>
-          <ActionButton setSelectedPage={setSelectedPage}>
-            Get Started
-          </ActionButton>
+          <ContactFormModal>Get Started</ContactFormModal>
         </motion.div>
       </motion.div>
 

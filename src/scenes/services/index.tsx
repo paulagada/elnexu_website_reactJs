@@ -47,6 +47,7 @@ const Services = ({ setSelectedPage }: Props) => {
           heading='elPay'
           detail='elPay aggregates transactions acquired via POS by agents of licensed Superagents and banks.'
           button='Sign Up'
+          isForm= {true}
         />
         <ServiceDiv
           setSelectedPage={setSelectedPage}

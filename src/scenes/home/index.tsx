@@ -15,6 +15,7 @@ import Kuda from '@/assets/kuda.webp';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Sponsors from './Sponsors';
+import ContactFormModal from '@/shared/ContactFormModal';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -87,9 +88,12 @@ const Home = ({ setSelectedPage }: Props) => {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}>
-            <ActionButton setSelectedPage={setSelectedPage}>
+            {/* <ActionButton setSelectedPage={setSelectedPage}>
               Get Started
-            </ActionButton>
+            </ActionButton> */}
+
+            {/* Contact Form Button */}
+            <ContactFormModal>Get Started</ContactFormModal>
           </motion.div>
         </motion.div>
       </section>

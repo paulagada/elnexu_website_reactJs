@@ -2,6 +2,7 @@ import { SelectedPage } from '@/shared/types';
 import { motion } from 'framer-motion';
 import ActionButton from '@/shared/ActionButton';
 import Footer from './footer';
+import ContactFormModal from '@/shared/ContactFormModal';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -46,9 +47,7 @@ const Contact = ({ setSelectedPage }: Props) => {
               hidden: { opacity: 0, y: 30 },
               visible: { opacity: 1, y: 0 },
             }}>
-            <ActionButton setSelectedPage={setSelectedPage}>
-              Contact us
-            </ActionButton>
+            <ContactFormModal>Contact us</ContactFormModal>
           </motion.div>
         </motion.div>
       </section>
