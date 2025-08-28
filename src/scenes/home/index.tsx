@@ -1,5 +1,4 @@
 import useMediaQuery from '@/hooks/useMediaQuery';
-import ActionButton from '@/shared/ActionButton';
 import { SelectedPage } from '@/shared/types';
 import Sterling from '@/assets/sterling.webp';
 import Img1 from '@/assets/IMG_1.webp';

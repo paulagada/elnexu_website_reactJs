@@ -1,5 +1,4 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import ActionButton from '@/shared/ActionButton';
 import { SelectedPage, type PosItem } from '@/shared/types';
 import Img1 from '@/assets/pos1.webp';
 import Img2 from '@/assets/pos2.webp';

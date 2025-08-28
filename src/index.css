@@ -19,12 +19,6 @@
   --font-PlusJakartaSans: "Plus Jakarta Sans", sans-serif;
   /* --font-montserrat: "Montserrat", sans-serif; */
 
-  /* ✅ Content images */
-  --content-evolvetext: url("/assets/EvolveText.png");
-  --content-abstractwaves: url("/assets/AbstractWaves.png");
-  --content-sparkles: url("/assets/Sparkles.png");
-  --content-circles: url("/assets/Circles.png");
-
   /* ✅ Screens (custom breakpoints) */
   --breakpoint-xs: 480px;
   --breakpoint-sm: 768px;
